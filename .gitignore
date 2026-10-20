@@ -1,0 +1,121 @@
+# ==============================================================================
+# Build Directories & Outputs
+# ==============================================================================
+build/
+build*/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# ==============================================================================
+# CMake Generated Files (In-source or Stray Artifacts)
+# ==============================================================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ==============================================================================
+# Compiled Object & Library Files
+# ==============================================================================
+*.o
+*.obj
+*.slo
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.la
+*.lai
+
+# ==============================================================================
+# Compiled Executables & Debug Artifacts
+# ==============================================================================
+*.exe
+*.out
+*.app
+*.pdb
+*.idb
+*.ilk
+*.dSYM/
+
+# ==============================================================================
+# Compiled Shader Binaries
+# ==============================================================================
+*.spv
+
+# ==============================================================================
+# Dependency / Package Manager Caches
+# ==============================================================================
+vcpkg_installed/
+.cache/
+.clangd/
+
+# ==============================================================================
+# IDE & Editor Configurations
+# ==============================================================================
+# JetBrains (CLion, Rider, etc.)
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio (MSVC)
+.vs/
+*.user
+*.userosv
+*.suo
+*.sln.docstates
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+Generated\ Files/
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+
+# ==============================================================================
+# Operating System & File System Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ==============================================================================
+# Temporary, Backup & Log Files
+# ==============================================================================
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+*.log
+core
+core.*
+*.dmp
+*.dump
+*.stackdump
+
